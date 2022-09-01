@@ -39,18 +39,24 @@ int main () {
   while (cin >> t) {
     x.push_back(t);
   }
-  for (string el : x) {
-//    el = toupper(el);
-    cout << el;
+  for (auto &el : x) {
+    for (auto &chr : el) {
+      chr = toupper(chr);
+    }
   }
-  while () {
-    if () {
-
+  int n = 0;
+  double m = 0;
+  while (n < x.size()) {
+    if (!(m/8 == 1) && !(m/8 == 2) && !(m/8 == 3)) {
+      cout << x[n];
+      n++;
+      m = n;
     }
     else {
-      cout << endl;
+      cout << endl << x[n];
+      n++;
+      m = n;
     }
   }
-  cout << typeid(x);
   return 0;
 }
