@@ -48,12 +48,12 @@ int main () {
   double m = 0;
   while (n < x.size()) {
     if (!(m/8 == 1) && !(m/8 == 2) && !(m/8 == 3)) {
-      cout << x[n];
+      cout << x[n] << " ";
       n++;
       m = n;
     }
     else {
-      cout << endl << x[n];
+      cout << endl << x[n] << " ";
       n++;
       m = n;
     }
