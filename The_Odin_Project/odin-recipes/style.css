@@ -1,8 +1,28 @@
-* {
-    color: cadetblue;
+body {
+    color: aquamarine;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
 }
 
 img {
     height: auto;
     width: 400px;
+}
+
+.steps,
+.ingredients,
+.description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: blueviolet;
+}
+
+.header2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+h1 {
+    color: cadetblue;
 }
