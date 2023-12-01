@@ -1,0 +1,66 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 400px;
+}
+
+.header-link {
+    display: flex;
+    gap: 20px;
+}
+
+.header-logo {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.hero {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    padding: 70px;
+}
+
+.hero-img {
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up-button {
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+#hero-bottom-text {
+    font-size: 18px;
+}
+
+#hero-upper-text {
+    font-size: 48px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
