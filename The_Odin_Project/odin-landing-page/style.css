@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "Muli";
+    src: url(Muli-Light.ttf);
+}
+
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Muli"
 }
 
 .header {
@@ -63,4 +68,125 @@ body {
     display: flex;
     flex-direction: column;
     width: 400px;
+    gap: 0px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 140px;
+    gap: 40px;
+}
+
+#information-boxes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.information-boxes-individ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: #3882F6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+#information-header  {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #1F2937;
+    padding: 140px;
+    align-items: center;
+}
+
+#quote-itself {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    width: 700px;
+}
+
+#quote-author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quote-inside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.action {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.action-inside {
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+#sign-up-button-2 {
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-width: 3px;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+#action-text {
+    width: 500px;
+}
+
+#action-upper {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    background-color: #1F2937;
 }
